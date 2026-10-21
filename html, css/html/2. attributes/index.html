@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Menentukan karakter encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Supaya tampil responsif di HP -->
+    <title>Atribut HTML</title>
+</head>
+<body>
+
+    <!-- Atribut Umum / Global -->
+    <h2>Atribut Umum</h2>
+
+    <!-- id: memberi identitas unik -->
+    <!-- class: untuk kelompok elemen (berguna untuk CSS/JS) -->
+    <!-- style: menambah gaya langsung -->
+    <!-- title: menampilkan tooltip -->
+    <p id="par1" class="teks-biru" style="color: blue;" title="Ini tooltip dari paragraf">
+        Ini paragraf dengan atribut id, class, style, dan title.
+    </p>
+
+    <!-- hidden: menyembunyikan elemen -->
+    <p hidden>Kalimat ini disembunyikan (tidak akan muncul di browser).</p>
+
+    <!-- contenteditable: membuat teks bisa diedit langsung di browser -->
+    <p contenteditable="true">Kamu bisa edit teks ini langsung di browser.</p>
+
+    <!-- dir: arah teks (rtl = kanan ke kiri, ltr = kiri ke kanan) -->
+    <p dir="rtl">Teks ini dari kanan ke kiri.</p>
+
+    <hr>
+
+    <!-- Atribut pada Gambar -->
+    <h2>Atribut untuk Gambar</h2>
+
+    <!-- src: sumber gambar -->
+    <!-- alt: teks alternatif kalau gambar gagal dimuat -->
+    <!-- width & height: mengatur ukuran -->
+    <img src="https://via.placeholder.com/150" alt="Contoh Gambar" width="150" height="150">
+    <!-- Jika gambar gagal dimuat, teks "Contoh Gambar" akan muncul -->
+
+    <hr>
+
+    <!-- Atribut pada Link -->
+    <h2>Atribut untuk Tautan (Link)</h2>
+
+    <!-- href: alamat tujuan -->
+    <!-- target="_blank": membuka di tab baru -->
+    <!-- download: untuk mengunduh file -->
+    <a href="https://www.example.com" target="_blank" title="Kunjungi situs Example">Kunjungi Example.com</a><br>
+    <a href="dokumen.pdf" download>Download dokumen</a>
+
+    <hr>
+
+    <!-- Atribut pada Formulir -->
+    <h2>Atribut pada Formulir</h2>
+
+    <!-- action: alamat tujuan data dikirim -->
+    <!-- method: cara pengiriman data (GET atau POST) -->
+    <form action="#" method="post">
+        <!-- type: jenis input -->
+        <!-- name: nama variabel data -->
+        <!-- placeholder: teks petunjuk -->
+        <!-- required: wajib diisi -->
+        <label>Nama:</label>
+        <input type="text" name="nama" placeholder="Masukkan nama" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Masukkan password" required><br><br>
+
+        <!-- disabled: menonaktifkan input -->
+        <label>Email:</label>
+        <input type="email" name="email" value="@email.com" disabled><br><br>
+
+        <!-- value: nilai awal -->
+        <label>Kota:</label>
+        <input type="text" name="kota" value="Jakarta"><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+
+    <hr>
+
+    <!-- Atribut Global Tambahan -->
+    <h2>Atribut Global Lainnya</h2>
+
+    <!-- tabindex: urutan fokus saat menekan tombol Tab -->
+    <button tabindex="1">Pertama</button>
+    <button tabindex="3">Ketiga</button>
+    <button tabindex="2">Kedua</button>
+
+    <br><br>
+
+    <!-- draggable: membuat elemen bisa diseret -->
+    <p draggable="true">
+        seret paragraf ini (draggable)
+    </p>
+
+</body>
+</html>

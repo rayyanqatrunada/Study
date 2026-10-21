@@ -1,0 +1,26 @@
+/* cara penggunaan superior di css ada banyak cara */
+
+/* menggunakan id dengan tanda "#" */
+#welcome {
+    background-color: aqua;
+}
+
+/* menggunakan class dengan tanda "." */
+.information {
+    color: red;
+}
+
+/* memilih class dengan lebih spesifik */
+h1.information { /* ini akan memilih h1 dengan class tertentu*/
+    background-color: blue;
+}
+
+/* untuk selector global bisa menggunakan tanda "*" */
+* { /* ini akan mengubah seluruh elemen pada html */
+    text-align: center;
+}
+
+/* cara pengelompokan atau memilih lebih dari satu selector bisa dengan tanda "," */
+h1, p {
+    font-size: 80px;
+}

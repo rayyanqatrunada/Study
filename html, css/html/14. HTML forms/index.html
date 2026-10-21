@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <!-- fungsi action="" adalah untuk menentukan kemana data akan dikirim -->
+    <!-- jika action kosong maka data akan dikirim ke halaman default -->
+    <form action="" method="get">
+        <label for="name">Nama</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="age">Umur</label>
+        <input type="number" name="age" id="age">
+        <br>
+        <label for="gender">Laki-laki</label>
+        <input type="radio" name="gender" value="laki">
+        <label for="gender">Perempuan</label>
+        <input type="radio" name="gender" value="cewe">
+        <hr>
+        <h4>Status</h4>
+        <input type="checkbox" name="siswa" value="siswa">
+        <label for="siswa">siswa</label>
+        <br>
+        <input type="checkbox" name="mahasiswa" value="mahasiswa">
+        <label for="mahasiswa">mahasiswa</label>
+        <br>
+        <input type="checkbox" name="Guru" value="Guru">
+        <label for="Guru">Guru</label>
+        <br>
+        <input type="submit" value="kirim">
+    </form>
+</body>
+</html>

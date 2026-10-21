@@ -1,0 +1,23 @@
+/* mengatur style table */
+
+table, th, td {
+    border: solid;
+    border-collapse: collapse;
+    border-width: 3px;
+    width: 50%;
+}
+
+th {
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+}
+
+td {
+    padding: 2px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: aqua;
+}

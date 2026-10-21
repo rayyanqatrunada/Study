@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <form action="/login" method="POST" class="form-card">
+            <h2>Login</h2>
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                <div class="flash">{{ messages[0] }}</div>
+              {% endif %}
+            {% endwith %}
+            <label for="email">Email atau Username</label>
+            <input type="text" name="identifier" required>
+
+            <label for="password">Password
+                <button type="button" class="show-password" onclick="togglePassword('password')">👁️</button>
+            </label>
+            <input type="password" name="password" id="password" required>
+
+            <button type="submit">Login</button>
+            <div class="links">
+                <a href="/register">Buat Akun</a> |
+                <a href="/forgot_password">Lupa Password?</a>
+            </div>
+        </form>
+    </div>
+    <script>
+      function togglePassword(id) {
+        const input = document.getElementById(id);
+        input.type = input.type === 'password' ? 'text' : 'password';
+      }
+    </script>
+</body>
+</html>

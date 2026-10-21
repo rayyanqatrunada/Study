@@ -1,0 +1,7 @@
+cara menulis comen di css bisa menggunakan /* */ bisa juga dengan shortcut (ctrl+/)
+
+contoh:
+/* komentar disini
+komentar bisa dua baris
+bahkan tiga
+atau lebih */

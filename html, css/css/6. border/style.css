@@ -1,0 +1,24 @@
+
+/* Border digunakan untuk memberi garis/titik-titik di bagian paling luar elemen */
+/* beberapa contoh border: solid, dotted, dashed, double, dll */
+
+#welcome {
+    border-style: solid;
+    border-width: 5px; /* untuk mengatur ketebalan border */
+    border-color: aqua; /* untuk mengatur warba border */
+}
+
+/* mix */
+/* jika 4 maka urutannya: top right bottom left */
+/* jika 2 maka urutannya: top-bottom left-right */
+h1.paraf {
+    border-style: solid dotted double dashed ;
+    border-width: 10px 5px;
+    border-color: red green blue black;
+}
+
+p {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px; /* untuk mengatur ketajaman pada ujung border */
+}

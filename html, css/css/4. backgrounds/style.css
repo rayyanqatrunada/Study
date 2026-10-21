@@ -1,0 +1,13 @@
+/* ubah background di "body" untuk mengubah background halaman  */
+
+/* Gunakan "background-color" untuk menggunakan warna sebagai bacground */
+/* Gunakan "background-image" untuk menggunakan gambar sebagai bacground */
+body {
+    background-image: url(https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-position: 0; /* untuk mengatur posisi layer/z background */
+}
+
+h1 {
+    color: aliceblue;
+}

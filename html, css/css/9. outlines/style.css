@@ -1,0 +1,7 @@
+/* outline adalah garis paling luar dari elemen */
+h1.paraf {
+    border-style: dashed;
+    border-color: green;
+    outline: solid;
+    outline-offset: 20px; /* jarak outline dari border */
+}

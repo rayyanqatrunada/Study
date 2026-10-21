@@ -1,0 +1,4 @@
+ada beberapa cara untuk masuk ke html di local browser lewat vscode
+1. masuk lewat file .html di file eksplorer
+2. saat di dalam code editor klik kanan dan pilih opsi "open in default browser"
+3. tekan alt+b

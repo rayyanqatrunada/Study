@@ -1,0 +1,12 @@
+/* 
+Syntax di html:
+
+selector {
+    declaration
+}
+*/
+
+/* Semua style yang ada pada body akan berubah */
+body { 
+    background-color: aqua;
+}

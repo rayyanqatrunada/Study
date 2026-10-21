@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <form action="/edit" method="POST" class="form-card">
+            <h2>Edit Data</h2>
+            <label for="birthplace">Tempat Lahir</label>
+            <input type="text" name="birthplace" value="{{ user.birthplace }}">
+
+            <label for="birthdate">Tanggal Lahir</label>
+            <input type="date" name="birthdate" value="{{ user.birthdate }}">
+
+            <label for="note">Catatan</label>
+            <textarea name="note">{{ user.note }}</textarea>
+
+            <button type="submit">Simpan Perubahan</button>
+            <div class="links">
+                <a href="/dashboard">Kembali</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* height dan width digunakan untuk mengatur lebar panjannya sebuah elemen */
+
+h1 {
+    background-color: aqua;
+    height: 100px;
+    width: 50%; /* jika menggunakan persen maka ukuran akan mengikuti besar layar */
+}

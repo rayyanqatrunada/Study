@@ -1,0 +1,22 @@
+
+/* Margin berguna untuk mengatur space atau jarak element */
+/* margi ada 4
+margin-top
+margon-right
+margin-bottom
+margin-left */
+/* jika hanya pakai "margin" maka akan mengatur seluruh margin sekaligus */
+p {
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+
+b {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: inherit; /* ini akan mengikuti margin parentnya */
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="form-card">
+            <h2>Selamat Datang, {{ user.username }}</h2>
+            <p>Email: {{ user.email }}</p>
+            {% if user.birthplace %}<p>Tempat Lahir: {{ user.birthplace }}</p>{% endif %}
+            {% if user.birthdate %}<p>Tanggal Lahir: {{ user.birthdate }}</p>{% endif %}
+            {% if user.note %}<p>Catatan: {{ user.note }}</p>{% endif %}
+            <div class="buttons">
+                <a href="/edit">Edit Data</a>
+                <a href="/logout" class="secondary">Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

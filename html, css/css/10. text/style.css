@@ -1,0 +1,24 @@
+/* mengatur text dengan css */
+
+#welcome {
+    color: aqua; /* mengatur warna */
+    text-align: center; /* untuk mengatur posisi text */
+    text-transform: lowercase; /* kalimat menjadi lowercase */
+    letter-spacing: 10px; /* mengatur jarak antar huruf */
+}
+
+h1.paraf {
+    text-align-last: right; /* mengatur posisi text pada baris terakhir */
+    text-transform: capitalize; /* huruf awal pada setiap kata akan menjadi kapital */
+}
+
+h1.paraf2 {
+    text-decoration-line: overline; /* memberi dan mengatur posisi garis pada text */
+    text-decoration-style: double; /* style garis */
+    text-decoration-color: red; /* mengatur warna garis */
+    text-decoration-thickness: 10px; /* mengatur ketebalan garis */
+}
+
+p {
+    text-decoration: underline solid green 10px; /* text decoration in one line */
+}

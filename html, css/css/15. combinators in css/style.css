@@ -1,0 +1,10 @@
+/* 
+h1  b  {} = mengubah semua b yang ada didalam h1
+h1 > b {} = hanya mengubah b yang parentnya h1
+h1 + b {} = hanya mengubah 1 b yang ada setelah 1
+h1 ~ b {} = mengubah semua b setelah h1
+*/
+
+h1 ~ b {
+    color: red;
+}

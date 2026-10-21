@@ -1,0 +1,7 @@
+/* mengatur style font dengan css */
+
+h1 {
+    font-family: 'Courier New', Courier, monospace; /* mengatur font yang digunakan */
+    font-style: normal; /* mengatur style font */
+    font-size: 10px; /* mengatur ukuran font */
+}

@@ -1,0 +1,18 @@
+<!--DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Daftar Pengguna</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Halo dari Flask + HTML!</h1>
+    <p>Ini adalah halaman HTML yang dirender dari Python Flask.</p>
+    
+    <button onclick="tampilkanInfo()">Tampilkan Info</button>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
